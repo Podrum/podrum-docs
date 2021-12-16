@@ -39,21 +39,26 @@ by running one of the the following commands in your server's root directory:
     py -3 -m pip install -U -r requirements.txt
 
 
+.. note::
+    Please note for linux you may need to install the following packages before running the above commands:
+
+    * ``python-dev`` (e.g. ``python3.6-dev`` for Python 3.6)
+
 .. _running:
 
 Running the Server
 *******************
 
 To run the server, run one of the the following
-commands in your server's root directory:
+commands:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 __main__.py
+    python3 run.py
 
     # Windows
-    py -3 __main__.py
+    py -3 run.py
 
 .. _updating:
 
@@ -64,7 +69,7 @@ To update your server, simply re-clone our `GitHub Repository <https://github.co
 or download it as a zip and extract it to a location on your system.
 
 You can then update your requirements by running one of the the
-following commands in your server's root directory:
+following commands:
 
 .. code:: sh
 
@@ -73,4 +78,3 @@ following commands in your server's root directory:
 
     # Windows
     py -3 -m pip install -U -r requirements.txt
-

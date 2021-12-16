@@ -16,7 +16,8 @@ To start, create an ``info.json`` file. It should look something like this:
         "main": "main.Main", // Your plugin's main class.
         "version": "0.0.1", // Your plugin's version.
         "description": "Plugin Description", // Your plugin's description.
-        "author": "Plugin Author" // The plugin's author.
+        "author": "Plugin Author", // The plugin's author.
+        "required_plugins": ["plugin1", "plugin2"], // A list of plugins that are required by your plugin.
     }
 
 Now, it's time to start coding.
@@ -36,4 +37,5 @@ Your plugin's ``Main`` class can have 2 methods that are used by the server,
 
 Each method is called when the plugin is loaded/unloaded respectively.
 
-
+To add a plugin to the server, simply compress the plugin files in the form of a
+``.zip`` or a ``.pyz`` file and place it in the ``plugins`` directory.

@@ -36,7 +36,7 @@ max_players
 max_view_distance
 ******************
 
-* **default**: ``8``
+* **default**: ``2``
 * **description**: Sets a player's maximum view distance, in chunks.
 
 world_provider
@@ -50,3 +50,21 @@ world_name
 
 * **default**: world
 * **description**: Sets the default world name.
+
+world_type
+******************
+
+* **default**: default
+* **description**: Sets the default world type.
+
+seed
+******************
+
+* **default**: ``421086205``
+* **description**: Sets the world's seed.
+
+difficulty
+******************
+
+* **default**: ``0``
+* **description**: The server's difficulty.
